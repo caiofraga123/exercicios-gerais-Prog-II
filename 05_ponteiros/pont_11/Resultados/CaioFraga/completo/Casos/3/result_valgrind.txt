@@ -1,0 +1,6 @@
+==62754== Memcheck, a memory error detector
+==62754== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==62754== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==62754== Command: Resultados/CaioFraga/completo/prog Resultados/CaioFraga/completo/Casos/3
+==62754== Parent PID: 62753
+==62754== 

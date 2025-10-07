@@ -1,0 +1,15 @@
+==281615== Memcheck, a memory error detector
+==281615== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==281615== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==281615== Command: Resultados/CaioFraga/main/prog Resultados/CaioFraga/main/Casos/5
+==281615== Parent PID: 281614
+==281615== 
+==281615== 
+==281615== HEAP SUMMARY:
+==281615==     in use at exit: 0 bytes in 0 blocks
+==281615==   total heap usage: 3 allocs, 3 frees, 1,130 bytes allocated
+==281615== 
+==281615== All heap blocks were freed -- no leaks are possible
+==281615== 
+==281615== For lists of detected and suppressed errors, rerun with: -s
+==281615== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

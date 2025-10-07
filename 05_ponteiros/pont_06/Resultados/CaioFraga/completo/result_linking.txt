@@ -1,0 +1,3 @@
+/usr/bin/ld: Resultados/CaioFraga/completo/main.o: in function `main':
+main.c:(.text+0x74): undefined reference to `EhIgual'
+collect2: error: ld returned 1 exit status

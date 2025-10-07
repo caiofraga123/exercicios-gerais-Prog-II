@@ -1,0 +1,2 @@
+Digite uma posicao (x e y):
+0 0

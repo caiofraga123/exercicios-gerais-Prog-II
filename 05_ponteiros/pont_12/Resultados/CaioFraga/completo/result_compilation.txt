@@ -1,0 +1,4 @@
+vetor.c: In function ‘LeVetor’:
+vetor.c:10:13: warning: unused variable ‘n’ [-Wunused-variable]
+   10 |         int n = 0;
+      |             ^

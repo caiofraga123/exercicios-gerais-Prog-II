@@ -1,0 +1,78 @@
+calculadora.c: In function ‘divisao’:
+calculadora.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+   23 | }
+      | ^
+main.c: In function ‘main’:
+main.c:6:14: warning: initialization of ‘char’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+    6 |     char c = "";
+      |              ^~
+main.c:14:5: warning: statement with no effect [-Wunused-value]
+   14 |     (float) num1;
+      |     ^~~~~~~~~~~~
+main.c:15:5: warning: statement with no effect [-Wunused-value]
+   15 |     (float) num2;
+      |     ^~~~~~~~~~~~
+main.c:18:15: warning: comparison between pointer and integer
+   18 |         if (c == "a"){
+      |               ^~
+main.c:18:15: warning: comparison with string literal results in unspecified behavior [-Waddress]
+main.c:19:25: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+   19 |             printf("(%.2f + %.2f) = %.2f", num1, num2, Calcular(num1, num2, soma));
+      |                      ~~~^                  ~~~~
+      |                         |                  |
+      |                         double             int
+      |                      %.2d
+main.c:19:32: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘int’ [-Wformat=]
+   19 |             printf("(%.2f + %.2f) = %.2f", num1, num2, Calcular(num1, num2, soma));
+      |                             ~~~^                 ~~~~
+      |                                |                 |
+      |                                double            int
+      |                             %.2d
+main.c:22:15: warning: comparison between pointer and integer
+   22 |         if (c == "s"){
+      |               ^~
+main.c:22:15: warning: comparison with string literal results in unspecified behavior [-Waddress]
+main.c:23:25: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+   23 |             printf("(%.2f - %.2f) = %.2f", num1, num2, Calcular(num1, num2, subtracao));
+      |                      ~~~^                  ~~~~
+      |                         |                  |
+      |                         double             int
+      |                      %.2d
+main.c:23:32: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘int’ [-Wformat=]
+   23 |             printf("(%.2f - %.2f) = %.2f", num1, num2, Calcular(num1, num2, subtracao));
+      |                             ~~~^                 ~~~~
+      |                                |                 |
+      |                                double            int
+      |                             %.2d
+main.c:26:15: warning: comparison between pointer and integer
+   26 |         if (c == "m"){
+      |               ^~
+main.c:26:15: warning: comparison with string literal results in unspecified behavior [-Waddress]
+main.c:27:25: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+   27 |             printf("(%.2f x %.2f) = %.2f", num1, num2, Calcular(num1, num2, multiplicacao));
+      |                      ~~~^                  ~~~~
+      |                         |                  |
+      |                         double             int
+      |                      %.2d
+main.c:27:32: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘int’ [-Wformat=]
+   27 |             printf("(%.2f x %.2f) = %.2f", num1, num2, Calcular(num1, num2, multiplicacao));
+      |                             ~~~^                 ~~~~
+      |                                |                 |
+      |                                double            int
+      |                             %.2d
+main.c:30:15: warning: comparison between pointer and integer
+   30 |         if (c == "d"){
+      |               ^~
+main.c:30:15: warning: comparison with string literal results in unspecified behavior [-Waddress]
+main.c:31:25: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+   31 |             printf("(%.2f / %.2f) = %.2f", num1, num2, Calcular(num1, num2, divisao));
+      |                      ~~~^                  ~~~~
+      |                         |                  |
+      |                         double             int
+      |                      %.2d
+main.c:31:32: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘int’ [-Wformat=]
+   31 |             printf("(%.2f / %.2f) = %.2f", num1, num2, Calcular(num1, num2, divisao));
+      |                             ~~~^                 ~~~~
+      |                                |                 |
+      |                                double            int
+      |                             %.2d

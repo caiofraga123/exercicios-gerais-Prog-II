@@ -1,0 +1,7 @@
+utils_char.c: In function ‘LeVetor’:
+utils_char.c:17:10: warning: unused variable ‘c’ [-Wunused-variable]
+   17 |     char c;
+      |          ^
+utils_char.c:16:9: warning: unused variable ‘i’ [-Wunused-variable]
+   16 |     int i = 0;
+      |         ^

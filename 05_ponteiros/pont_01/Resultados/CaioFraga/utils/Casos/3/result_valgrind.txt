@@ -1,0 +1,15 @@
+==223301== Memcheck, a memory error detector
+==223301== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==223301== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==223301== Command: Resultados/CaioFraga/utils/prog Resultados/CaioFraga/utils/Casos/3
+==223301== Parent PID: 223300
+==223301== 
+==223301== 
+==223301== HEAP SUMMARY:
+==223301==     in use at exit: 0 bytes in 0 blocks
+==223301==   total heap usage: 2 allocs, 2 frees, 1,024 bytes allocated
+==223301== 
+==223301== All heap blocks were freed -- no leaks are possible
+==223301== 
+==223301== For lists of detected and suppressed errors, rerun with: -s
+==223301== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

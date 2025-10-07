@@ -1,0 +1,12 @@
+{
+	"alunos": [
+		{
+			"Nome":"CaioFraga",
+			"Nota":10.00
+		},
+		{
+			"Nome":"CaioFraga/build",
+			"Nota":0
+		}
+	]
+}

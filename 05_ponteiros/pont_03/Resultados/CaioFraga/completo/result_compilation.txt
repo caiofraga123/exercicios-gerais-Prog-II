@@ -1,0 +1,4 @@
+vetor.c: In function ‘TrocaSeAcharMenor’:
+vetor.c:21:20: warning: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
+   21 |             vet[i] = paraTrocar;
+      |                    ^

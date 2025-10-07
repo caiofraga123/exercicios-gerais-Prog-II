@@ -1,0 +1,6 @@
+==62833== Memcheck, a memory error detector
+==62833== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==62833== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==62833== Command: Resultados/CaioFraga/completo/prog Resultados/CaioFraga/completo/Casos/4
+==62833== Parent PID: 62831
+==62833== 

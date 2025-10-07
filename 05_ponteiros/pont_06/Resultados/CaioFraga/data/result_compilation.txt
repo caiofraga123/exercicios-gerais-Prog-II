@@ -1,0 +1,52 @@
+data.c: In function ‘InicializaDataParam’:
+data.c:6:15: warning: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
+    6 |     data->dia = &dia;
+      |               ^
+data.c:7:15: warning: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
+    7 |     data->mes = &mes;
+      |               ^
+data.c:8:15: warning: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
+    8 |     data->ano = &ano;
+      |               ^
+data.c: In function ‘LeData’:
+data.c:14:40: warning: passing argument 4 of ‘InicializaDataParam’ from incompatible pointer type [-Wincompatible-pointer-types]
+   14 |     InicializaDataParam(dia, mes, ano, &data);
+      |                                        ^~~~~
+      |                                        |
+      |                                        tData ** {aka struct Data **}
+data.c:5:61: note: expected ‘tData *’ {aka ‘struct Data *’} but argument is of type ‘tData **’ {aka ‘struct Data **’}
+    5 | void InicializaDataParam( int dia, int mes, int ano, tData *data){
+      |                                                      ~~~~~~~^~~~
+data.c: In function ‘ImprimeData’:
+data.c:18:15: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+   18 |     printf("'%d/%d/%d'\n");
+      |              ~^
+      |               |
+      |               int
+data.c:18:18: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+   18 |     printf("'%d/%d/%d'\n");
+      |                 ~^
+      |                  |
+      |                  int
+data.c:18:21: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+   18 |     printf("'%d/%d/%d'\n");
+      |                    ~^
+      |                     |
+      |                     int
+data.c: In function ‘InformaQtdDiasNoMes’:
+data.c:35:24: warning: passing argument 1 of ‘EhBissexto’ from incompatible pointer type [-Wincompatible-pointer-types]
+   35 |         if (EhBissexto(&data)){
+      |                        ^~~~~
+      |                        |
+      |                        tData ** {aka struct Data **}
+data.c:21:24: note: expected ‘tData *’ {aka ‘struct Data *’} but argument is of type ‘tData **’ {aka ‘struct Data **’}
+   21 | int EhBissexto( tData *data ){
+      |                 ~~~~~~~^~~~
+data.c: In function ‘AvancaParaDiaSeguinte’:
+data.c:45:15: warning: operation on ‘data->dia’ may be undefined [-Wsequence-point]
+   45 |     data->dia = data->dia++;
+      |     ~~~~~~~~~~^~~~~~~~~~~~~
+data.c: In function ‘InformaQtdDiasNoMes’:
+data.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+   41 | }
+      | ^

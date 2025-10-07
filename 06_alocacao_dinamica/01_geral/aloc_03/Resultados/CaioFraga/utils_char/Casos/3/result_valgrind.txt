@@ -1,0 +1,23 @@
+==283092== Memcheck, a memory error detector
+==283092== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==283092== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==283092== Command: Resultados/CaioFraga/utils_char/prog Resultados/CaioFraga/utils_char/Casos/3
+==283092== Parent PID: 283091
+==283092== 
+==283092== Invalid write of size 1
+==283092==    at 0x109269: CriaVetor (in /mnt/c/Users/caiof/OneDrive/Documentos/exercicios-gerais-Prog-II/06_alocacao_dinamica/01_geral/aloc_03/Resultados/CaioFraga/utils_char/prog)
+==283092==    by 0x1091B4: main (in /mnt/c/Users/caiof/OneDrive/Documentos/exercicios-gerais-Prog-II/06_alocacao_dinamica/01_geral/aloc_03/Resultados/CaioFraga/utils_char/prog)
+==283092==  Address 0x4a8c313 is 0 bytes after a block of size 147 alloc'd
+==283092==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==283092==    by 0x109232: CriaVetor (in /mnt/c/Users/caiof/OneDrive/Documentos/exercicios-gerais-Prog-II/06_alocacao_dinamica/01_geral/aloc_03/Resultados/CaioFraga/utils_char/prog)
+==283092==    by 0x1091B4: main (in /mnt/c/Users/caiof/OneDrive/Documentos/exercicios-gerais-Prog-II/06_alocacao_dinamica/01_geral/aloc_03/Resultados/CaioFraga/utils_char/prog)
+==283092== 
+==283092== 
+==283092== HEAP SUMMARY:
+==283092==     in use at exit: 0 bytes in 0 blocks
+==283092==   total heap usage: 3 allocs, 3 frees, 1,171 bytes allocated
+==283092== 
+==283092== All heap blocks were freed -- no leaks are possible
+==283092== 
+==283092== For lists of detected and suppressed errors, rerun with: -s
+==283092== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
